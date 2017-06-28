@@ -33,13 +33,13 @@ index.php contains the template for using the available tasks:
  
 You must create and instance of the integrator with the "task" name, which is the same of the JSON config files.
  
-$integrator = new Integrator\GitJiraIntegrator('repository_done'); --> will use respository_done.json
+- $integrator = new Integrator\GitJiraIntegrator('repository_done'); --> will use respository_done.json
   
 Then: 
 
-$integrator->integrateDoneTasks(); get the "Done" tasks and try to merge them, putting the result (like MERGED or CONFLICTS) in a Jira custom label field
-$integrator->integrateReleaseTasks(); get the "Marked for Release" tasks and merge them into a release branch, updating Jira issues
-$integrator->integrateReleaseTasks(); get the "Release" tasks and merge them into master, moving Jira issues
+- $integrator->integrateDoneTasks(); get the "Done" tasks and try to merge them, putting the result (like MERGED or CONFLICTS) in a Jira custom label field
+- $integrator->integrateReleaseTasks(); get the "Marked for Release" tasks and merge them into a release branch, updating Jira issues
+- $integrator->integrateReleaseTasks(); get the "Release" tasks and merge them into master, moving Jira issues
 
 
 ### Who do I talk to? ###
