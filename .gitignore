@@ -1,0 +1,25 @@
+# config and cache files
+.env
+cache.properties
+
+# composer vendor folder
+vendor/
+
+# phpstorm project files
+.idea/*
+!.idea/inspectionProfiles/
+!.idea/scopes/
+!.idea/codeStyleSettings.xml
+
+# biuld subfolders (generated build resources)
+build/*/
+
+# domain ignores
+jira-rest-client.log
+Integrator/Git/state/
+Integrator/Git/log/
+Integrator/Git/config/*
+!Integrator/Git/config/example.json
+Integrator/Jira/config/*
+!Integrator/Jira/config/example.json
+

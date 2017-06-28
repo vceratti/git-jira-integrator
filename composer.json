@@ -1,0 +1,7 @@
+{
+  "require": {
+    "lesstif/php-jira-rest-client": "^1.10",
+    "aura/autoload": "^2.0",
+    "sebastian/git": "^2.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://myhost@bitbucket.org/mybitbucket",
+  "repository": "meyrepo",
+  "localPath": "/home/user/myproject/",
+  "username": "user@gmail.com",
+  "password": "1234",
+  "branch": "dev"
+}

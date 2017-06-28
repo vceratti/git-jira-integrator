@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="git-jira-integrator" pattern="file[jira_client]:Integrator//*" />
+</component>

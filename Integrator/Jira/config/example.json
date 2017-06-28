@@ -1,0 +1,21 @@
+{
+  "projects": [
+    "KEY-1",
+    "KEY-2"
+  ],
+  "issueTypes": [
+    "Task",
+    "Bug"
+  ],
+  "doneStatus": [
+    "Done"
+  ],
+  "toTestStatus": [
+    "To Test"
+  ],
+  "excludes": {
+    "labels": [
+      "excluded_label"
+    ]
+  }
+}
